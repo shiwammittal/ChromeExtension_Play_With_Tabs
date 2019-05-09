@@ -1,0 +1,19 @@
+{
+
+    "name":"Chrome Tabs",
+    "description":"Play with chrome tabs - store with less memory and open them in any desired window, including incognito",
+    "permissions":[
+        "tabs","background","storage","notifications","http://*/","https://*/","activeTab"
+    ],
+    "version": "0.3",
+    "background": {
+      "persistent": false,
+      "scripts": ["background.js"]
+    },
+
+    "manifest_version": 2,
+    "browser_action": {
+        "default_icon":"red.png"
+      }
+
+}
